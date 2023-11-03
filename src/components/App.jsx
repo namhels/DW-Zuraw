@@ -1,16 +1,16 @@
+import { Box, Button, ButtonGroup, Flex, Heading, Spacer } from "@chakra-ui/react";
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <Flex minWidth='max-content' alignItems='center' gap='2'>
+      <Box p='2'>
+        <Heading size='md'>Chakra App</Heading>
+      </Box>
+      <Spacer />
+      <ButtonGroup gap='2'>
+        <Button colorScheme='teal'>Sign Up</Button>
+        <Button colorScheme='teal'>Log in</Button>
+      </ButtonGroup>
+    </Flex>
   );
 };
