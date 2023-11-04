@@ -10,9 +10,9 @@ import {
 export const App = () => {
   return (
     <div className='backgroundImage'>
-      <Flex minWidth="max-content" alignItems="center" gap="2">
+      <Flex p={5} minWidth="max-content" alignItems="center" gap="2">
         <Box p="2">
-          <Heading size="md">Chakra App</Heading>
+          <Heading size="md">DW Żuraw</Heading>
         </Box>
         <Spacer />
         <ButtonGroup gap="2">
