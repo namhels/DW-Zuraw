@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/DW-Zuraw/static/css/main.666754fc.css",
-    "main.js": "/DW-Zuraw/static/js/main.31471135.js",
+    "main.js": "/DW-Zuraw/static/js/main.e4e09c1a.js",
     "static/media/bcg.png": "/DW-Zuraw/static/media/bcg.1237666b1d2406f7d2b7.png",
     "index.html": "/DW-Zuraw/index.html",
     "main.666754fc.css.map": "/DW-Zuraw/static/css/main.666754fc.css.map",
-    "main.31471135.js.map": "/DW-Zuraw/static/js/main.31471135.js.map"
+    "main.e4e09c1a.js.map": "/DW-Zuraw/static/js/main.e4e09c1a.js.map"
   },
   "entrypoints": [
     "static/css/main.666754fc.css",
-    "static/js/main.31471135.js"
+    "static/js/main.e4e09c1a.js"
   ]
 }
