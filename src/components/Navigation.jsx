@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Button, ButtonGroup } from '@chakra-ui/react';
+import { Button, ButtonGroup, Flex } from '@chakra-ui/react';
 
 const navs = [
   {
@@ -31,19 +31,27 @@ const navs = [
 
 const Navigation = () => {
   return (
-    <ButtonGroup gap="2">
-      {navs.map((nav) => (
-        <NavLink to={nav.path} key={nav.label}>
-          <Button colorScheme="teal">{nav.label}</Button>
-        </NavLink>
-      ))}
-      {/* <Button colorScheme="teal">Główna</Button>
-      <Button colorScheme="teal">Turnusy rehabilitacyjne 2021</Button>
-      <Button colorScheme="teal">Zabiegi rehabilitacyjne</Button>
-      <Button colorScheme="teal">O nas</Button>
-      <Button colorScheme="teal">Galeria</Button>
-      <Button colorScheme="teal">Kontakt</Button> */}
-    </ButtonGroup>
+    <Flex justifyContent="center">
+      <ButtonGroup gap="2">
+        {navs.map(nav => (
+          <Button
+            as={NavLink}
+            colorScheme="teal"
+            to={nav.path}
+            key={nav.label}
+            // transition="all 0.5s"
+            _activeLink={{
+              color: 'teal.500',
+              bg: 'transparent',
+              borderColor: 'teal.500',
+              borderWidth: '2px',
+            }}
+          >
+            {nav.label}
+          </Button>
+        ))}
+      </ButtonGroup>
+    </Flex>
   );
 };
 

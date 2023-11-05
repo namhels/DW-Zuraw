@@ -6,13 +6,14 @@ import ToggleTheme from 'components/ToggleTheme';
 
 const AppBar = () => {
   return (
-    <Flex p={5} minWidth="max-content" alignItems="center" gap="2">
-      <Logo />
-      <Spacer />
+    <>
+      <Flex p={5} minWidth="max-content" alignItems="center" gap="2">
+        <Logo />
+        <Spacer />
+        <ToggleTheme />
+      </Flex>
       <Navigation />
-      <Spacer />
-      <ToggleTheme />
-    </Flex>
+    </>
   );
 };
 
