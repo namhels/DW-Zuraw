@@ -1,55 +1,75 @@
 import React from 'react';
-import { Box, Heading } from '@chakra-ui/react';
+import { Heading, Icon, keyframes, usePrefersReducedMotion } from '@chakra-ui/react';
 import { GiPaperCrane } from 'react-icons/gi';
 
-// import { extendTheme } from '@chakra-ui/react'
-// import { defineStyle, defineStyleConfig } from '@chakra-ui/react'
+import { Link as ReactRouterLink } from 'react-router-dom';
+import { Link as ChakraLink } from '@chakra-ui/react';
 
-// const underline = defineStyle({
-//     color: "orange.500",
-//     borderBottom: "2px",
-//     borderRadius: "10",
-//     fontFamily: "serif",
-//     // let's also provide dark mode alternatives
-//     _dark: {
-//         color: 'orange.400',
-//     },
-//     _hover: {
-//         borderColor: "red.200",
-//         _dark: {
-//             borderColor: "red.300"
-//         }
-//     }
-// })
-
-// const headingTheme = defineStyleConfig({
-//   variants: {
-//       "underline": underline
-//     },
-//   })
-
-// export const theme = extendTheme({
-//   components: { Heading: headingTheme },
-// })
+const pulse = keyframes`
+0% {
+  transform: scale(1);
+}
+50% {
+  color: #f02c9d;
+  transform: scale(1.5);
+}
+65% {
+  color: #818181;
+  transform: scale(1.3);
+}
+75% {
+  color: #f02c9d;
+  transform: scale(1.6);
+}
+85% {
+  color: #f02c9d;
+  transform: scale(1.3);
+}
+100% {
+  color: #818181;
+  transform: scale(1);
+}
+`
 
 const Logo = () => {
+  const prefersReducedMotion = usePrefersReducedMotion()
+
+  const animation = prefersReducedMotion
+    ? undefined
+    : `${pulse} 1000ms infinite linear`
+
   return (
-    <Box p="2">
+    <ChakraLink
+      as={ReactRouterLink}
+      to="/"
+      p="2"
+      className="my-box"
+      _hover={{ textDecoration: 'none' }}
+    >
       <Heading
         display="flex"
         alignItems="center"
-        textShadow="4px 4px 3px rgba(141, 193, 50,0.6)"
+        textShadow="4px 4px 3px rgba(7, 208, 234,0.6)"
         color="green"
         size="2xl"
-        _hover={{
-          color: "red.500",
-          transform: "scale(1.05)",
-          transition: "all 0.3s linear"
-        }}
+        textDecoration="none"
       >
-        Dom Wczasowy {<GiPaperCrane size="72" />}Żuraw
+        Dom Wczasowy
+        {
+          <Icon
+            as={GiPaperCrane}
+            mx={3}
+            boxSize={28}
+            sx={{
+              '.my-box:hover &': {
+                animation: animation
+              },
+            }}
+          />
+        }
+        Żuraw
       </Heading>
-    </Box>
+    </ChakraLink>
   );
 };
 

@@ -1,6 +1,7 @@
 import { lazy } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import SharedLayout from 'components/SharedLayout';
+import { Box, useColorMode } from '@chakra-ui/react';
 
 const HomePage = lazy(() => import('pages/Home'));
 const RehabilitationStaysPage = lazy(() => import('pages/RehabilitationStays'));
@@ -12,8 +13,10 @@ const AboutPage = lazy(() => import('pages/About'));
 const ContactPage = lazy(() => import('pages/Contact'));
 
 export const App = () => {
+  const { colorMode } = useColorMode();
+
   return (
-    <div className="backgroundImage">
+    <Box bg={colorMode === 'dark' ? '#052c49' : '#fbe4d7'}>
       <Routes>
         <Route path="/" element={<SharedLayout />}>
           <Route index element={<HomePage />} />
@@ -30,6 +33,6 @@ export const App = () => {
           <Route path="contact" element={<ContactPage />} />
         </Route>
       </Routes>
-    </div>
+    </Box>
   );
 };

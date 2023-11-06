@@ -7,7 +7,9 @@ const SharedLayout = () => {
     <>
       <AppBar />
       <Suspense fallback={null}>
+      <div className="backgroundImage">
         <Outlet />
+    </div>
       </Suspense>
     </>
   );

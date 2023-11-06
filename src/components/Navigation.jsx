@@ -39,7 +39,6 @@ const Navigation = () => {
             colorScheme="teal"
             to={nav.path}
             key={nav.label}
-            // transition="all 0.5s"
             _activeLink={{
               color: 'teal.500',
               bg: 'transparent',
