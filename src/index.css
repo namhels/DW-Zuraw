@@ -39,7 +39,7 @@ a {
 }
 
 .backgroundImage {
-  min-height: 74vh;
+  /* min-height: 74vh; */
   background-image: url(./images/crane/bcg.png);
   background-position: center;
   background-repeat: no-repeat;
