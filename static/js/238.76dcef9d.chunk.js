@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkDW_Zuraw=self.webpackChunkDW_Zuraw||[]).push([[238],{3238:function(e,n,t){t.r(n);t(2791);var u=t(184);n.default=function(){return(0,u.jsx)("div",{children:"RehabilitationTreatments"})}}}]);
+//# sourceMappingURL=238.76dcef9d.chunk.js.map

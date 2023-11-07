@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkDW_Zuraw=self.webpackChunkDW_Zuraw||[]).push([[951],{951:function(u,n,e){e.r(n);e(791);var r=e(184);n.default=function(){return(0,r.jsx)("div",{children:"Contact"})}}}]);
-//# sourceMappingURL=951.d647ea06.chunk.js.map

@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkDW_Zuraw=self.webpackChunkDW_Zuraw||[]).push([[175],{175:function(u,e,n){n.r(e);n(791);var r=n(184);e.default=function(){return(0,r.jsx)("div",{children:"About"})}}}]);
-//# sourceMappingURL=175.160c9f8a.chunk.js.map

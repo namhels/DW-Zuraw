@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/175.160c9f8a.chunk.js","mappings":"mIAMA,UAJc,WACZ,OAAOA,EAAAA,EAAAA,KAAA,OAAAC,SAAK,SACd,C","sources":["pages/About.jsx"],"sourcesContent":["import React from 'react';\n\nconst About = () => {\n  return <div>About</div>;\n};\n\nexport default About;\n"],"names":["_jsx","children"],"sourceRoot":""}
