@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkDW_Zuraw=self.webpackChunkDW_Zuraw||[]).push([[415],{5415:function(e,r,c){c.r(r);var a=c(6484),i=c(9589),n=(c(2791),c(184));r.default=function(){return(0,n.jsx)(a.M,{mt:"16vh",children:(0,n.jsx)(i.X,{as:"h1",size:"xl",fontFamily:"cursive",color:"#f02c9d",letterSpacing:4,fontWeight:"900",children:"Przyjd\u017a jako go\u015bcie, wyjd\u017a jako przyjaciele!"})})}}}]);
-//# sourceMappingURL=415.8e2cbbc7.chunk.js.map
