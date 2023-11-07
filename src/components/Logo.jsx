@@ -4,13 +4,14 @@ import { GiPaperCrane } from 'react-icons/gi';
 
 import { Link as ReactRouterLink } from 'react-router-dom';
 import { Link as ChakraLink } from '@chakra-ui/react';
+import theme from 'utils/theme';
 
 const pulse = keyframes`
 0% {
   transform: scale(1);
 }
 50% {
-  color: #f02c9d;
+  color: ${theme.colors.brand};
   transform: scale(1.5);
 }
 65% {
@@ -18,11 +19,11 @@ const pulse = keyframes`
   transform: scale(1.3);
 }
 75% {
-  color: #f02c9d;
+  color: ${theme.colors.brand};
   transform: scale(1.6);
 }
 85% {
-  color: #f02c9d;
+  color: ${theme.colors.brand};
   transform: scale(1.3);
 }
 100% {

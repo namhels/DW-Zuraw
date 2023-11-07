@@ -40,7 +40,7 @@ const PopoverDev = () => {
         </Box>
       </PopoverTrigger>
       <PopoverContent bg="teal" color="white">
-        <PopoverArrow bg="#f02c9d" />
+        <PopoverArrow bg="brand" />
         <PopoverCloseButton />
         <PopoverHeader>Kontakty deweloperskie:</PopoverHeader>
         <PopoverBody>

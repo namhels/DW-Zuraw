@@ -8,7 +8,7 @@ const Home = () => {
         as="h1"
         size="xl"
         fontFamily="cursive"
-        color="#f02c9d"
+        color="brand"
         letterSpacing={4}
         fontWeight="900"
       >

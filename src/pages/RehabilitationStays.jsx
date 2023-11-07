@@ -16,7 +16,7 @@ const RehabilitationStays = () => {
     <Flex justifyContent="center">
       <TableContainer maxW="container.lg">
         <Table variant="striped" colorScheme="teal">
-          <TableCaption placement="top" fontSize="3xl" color="#f02c9d">
+          <TableCaption placement="top" fontSize="3xl" color="brand">
             Turnusy rehabilitacyjne 2021
           </TableCaption>
           <Thead>
