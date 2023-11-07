@@ -1,39 +1,13 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Button, ButtonGroup, Flex } from '@chakra-ui/react';
-
-const navs = [
-  {
-    label: 'Główna',
-    path: '/',
-  },
-  {
-    label: 'Turnusy rehabilitacyjne 2021',
-    path: '/rehabilitation_stays',
-  },
-  {
-    label: 'Zabiegi rehabilitacyjne',
-    path: '/rehabilitation_treatments',
-  },
-  {
-    label: 'Galeria',
-    path: '/gallery',
-  },
-  {
-    label: 'O nas',
-    path: '/about',
-  },
-  {
-    label: 'Kontakt',
-    path: '/contact',
-  },
-];
+import { navigations } from 'db/navigations';
 
 const Navigation = () => {
   return (
     <Flex justifyContent="center">
       <ButtonGroup gap="2">
-        {navs.map(nav => (
+        {navigations.map(nav => (
           <Button
             as={NavLink}
             colorScheme="teal"
