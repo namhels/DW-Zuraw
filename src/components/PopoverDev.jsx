@@ -21,7 +21,7 @@ import {
 
 const PopoverDev = () => {
   return (
-    <Popover>
+    <Popover placement="top" computePositionOnMount="true">
       <PopoverTrigger>
         <Box
           as="button"
@@ -39,43 +39,44 @@ const PopoverDev = () => {
           Opracowany przez namhels
         </Box>
       </PopoverTrigger>
-      <PopoverContent bg='teal' color='white'>
-        <PopoverArrow />
+      <PopoverContent bg="teal" color="white">
+        <PopoverArrow bg="#f02c9d" />
         <PopoverCloseButton />
-        <PopoverHeader >
-          Kontakty deweloperskie:
-        </PopoverHeader>
+        <PopoverHeader>Kontakty deweloperskie:</PopoverHeader>
         <PopoverBody>
-        <List spacing={3} mt={4} pr={10}>
-          <ListItem>
-            <Link href="tel:+48576558744">
-              <ListIcon as={GiSmartphone} />
-              +48 576 558 744
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="mailto:8.lsv.888@gmail.com">
-              <ListIcon as={MdOutlineEmail} />
-              8.lsv.888@gmail.com
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://www.github.com/namhels" isExternal>
-              <ListIcon as={AiFillGithub} />
-              github.com/namhels
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://www.linkedin.com/in/serhii-lekhman" isExternal>
-              <ListIcon as={AiOutlineLinkedin} />
-              linkedin.com/in/serhii-lekhman
-            </Link>
-          </ListItem>
-          <ListItem>
-            <ListIcon as={MdLocationPin} />
-            Polska, Rabka-Zdrój
-          </ListItem>
-        </List>
+          <List spacing={2}>
+            <ListItem>
+              <Link href="tel:+48576558744">
+                <ListIcon as={GiSmartphone} />
+                +48 576 558 744
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="mailto:8.lsv.888@gmail.com">
+                <ListIcon as={MdOutlineEmail} />
+                8.lsv.888@gmail.com
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://www.github.com/namhels" isExternal>
+                <ListIcon as={AiFillGithub} />
+                github.com/namhels
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link
+                href="https://www.linkedin.com/in/serhii-lekhman"
+                isExternal
+              >
+                <ListIcon as={AiOutlineLinkedin} />
+                linkedin.com/in/serhii-lekhman
+              </Link>
+            </ListItem>
+            <ListItem>
+              <ListIcon as={MdLocationPin} />
+              Polska, Rabka-Zdrój
+            </ListItem>
+          </List>
         </PopoverBody>
       </PopoverContent>
     </Popover>
