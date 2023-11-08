@@ -10,7 +10,7 @@ const RehabilitationTreatmentsPage = lazy(() =>
 );
 const GalleryPage = lazy(() => import('pages/Gallery'));
 const AboutPage = lazy(() => import('pages/About'));
-const ContactPage = lazy(() => import('pages/Contact'));
+const ContactsPage = lazy(() => import('pages/Contacts'));
 
 export const App = () => {
   const { colorMode } = useColorMode();
@@ -30,7 +30,7 @@ export const App = () => {
           />
           <Route path="gallery" element={<GalleryPage />} />
           <Route path="about" element={<AboutPage />} />
-          <Route path="contact" element={<ContactPage />} />
+          <Route path="contacts" element={<ContactsPage />} />
         </Route>
       </Routes>
     </Box>

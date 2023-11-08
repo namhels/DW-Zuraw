@@ -1,8 +1,9 @@
+import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
 import AppBar from 'components/AppBar';
-import { Suspense } from 'react';
 import Footer from 'components/Footer';
 import { Box, Flex } from '@chakra-ui/react';
+import backgroundImage from 'images/crane/bcg.png';
 
 const SharedLayout = () => {
   return (
@@ -11,7 +12,10 @@ const SharedLayout = () => {
       <Box display="contents">
         <Suspense fallback={null}>
           <Flex
-            className="backgroundImage"
+            backgroundImage={`url(${backgroundImage})`}
+            backgroundPosition="center"
+            backgroundRepeat="no-repeat"
+            backgroundSize="cover"
             flexDirection="column"
             justifyContent="space-between"
             flexGrow="1"

@@ -3,50 +3,30 @@ import { SiMediamarkt } from 'react-icons/si';
 import {
   Box,
   Flex,
-  HStack,
-  Heading,
   List,
   ListIcon,
   ListItem,
+  Stack,
   Text,
   VStack,
-  useColorMode,
 } from '@chakra-ui/react';
+import BoxPage from 'components/BoxPage';
+import Title from 'components/Title';
+import TitlePage from 'components/TitlePage';
 
 const RehabilitationTreatments = () => {
-  const { colorMode } = useColorMode();
 
   return (
     <Flex justifyContent="center">
-      <Box
-        maxW="container.lg"
-        mt="50px"
-        px="16px"
-        py="32px"
-        bg={colorMode === 'dark' ? 'bgDark.100' : 'bgLight.100'}
-        border="2px solid cyan"
-        boxShadow="brandShadow"
-        rounded="md"
-      >
-        <Heading
-          display="flex"
-          justifyContent="center"
-          fontSize="3xl"
-          color="brand"
-        >
+      <BoxPage>
+        <TitlePage>
           Zabiegi rehabilitacyne
-        </Heading>
-        <HStack spacing={6} alignItems="flex-start">
+        </TitlePage>
+        <Stack direction={['column', 'row']} spacing={6} alignItems="flex-start">
           <VStack py={5} spacing={4} alignItems="flex-start">
-            <Heading
-              w="100%"
-              display="flex"
-              justifyContent="center"
-              fontSize="xl"
-              color="green"
-            >
+            <Title>
               Masaże
-            </Heading>
+            </Title>
             <List>
               <ListItem>
                 <ListIcon as={SiMediamarkt} color="green.500" />
@@ -57,15 +37,9 @@ const RehabilitationTreatments = () => {
                 masaż w fotelu.
               </ListItem>
             </List>
-            <Heading
-              w="100%"
-              display="flex"
-              justifyContent="center"
-              fontSize="xl"
-              color="green"
-            >
+            <Title>
               Światłolecznictwo
-            </Heading>
+            </Title>
             <Box>
               <Text textIndent="10px">
                 Światłolecznictwo jest ważne dla życia człowieka:
@@ -140,15 +114,9 @@ const RehabilitationTreatments = () => {
             </Box>
           </VStack>
           <VStack py={5} spacing={4} alignItems="flex-start">
-            <Heading
-              w="100%"
-              display="flex"
-              justifyContent="center"
-              fontSize="xl"
-              color="green"
-            >
+            <Title>
               Inhalacje
-            </Heading>
+            </Title>
             <Text textIndent="10px">
               Inhalacje solankowe działają korzystnie na drogi oddechowe.
               Wdychanie oparów powoduje nawilżenie dróg oddechowych,
@@ -174,15 +142,9 @@ const RehabilitationTreatments = () => {
               Inhalacje zaleca się stosować systematycznie, nie tylko w okresach
               zaostrzenia.
             </Text>
-            <Heading
-              w="100%"
-              display="flex"
-              justifyContent="center"
-              fontSize="xl"
-              color="green"
-            >
+            <Title>
               Kinezyterapia
-            </Heading>
+            </Title>
             <Box>
               <Text textIndent="10px">
                 Gimnastyka ogólnousprawniająca, zajęcia w siłowni z akcesoriami
@@ -208,13 +170,13 @@ const RehabilitationTreatments = () => {
               </List>
             </Box>
           </VStack>
-        </HStack>
+        </Stack>
         <Text textIndent="10px" fontWeight="700">
           Oferujemy dwa zabiegi rehabilitacyjne dziennie wg zaleceń lekarza DW
           „Żuraw” (z wyłączeniem pierwszego i ostatniego dnia pobytu, sobót,
           niedziel i dni świątecznych).
         </Text>
-      </Box>
+      </BoxPage>
     </Flex>
   );
 };

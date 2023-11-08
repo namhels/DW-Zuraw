@@ -20,7 +20,7 @@ export const navigations = [
     path: '/about',
   },
   {
-    label: 'Kontakt',
-    path: '/contact',
+    label: 'Kontakty',
+    path: '/contacts',
   },
 ];

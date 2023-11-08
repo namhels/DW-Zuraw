@@ -20,14 +20,20 @@ const RehabilitationStays = () => {
       <TableContainer
         maxW="container.lg"
         mt="50px"
-        p="16px"
+        px="16px"
+        pb="32px"
         bg={colorMode === 'dark' ? 'bgDark.100' : 'bgLight.100'}
         border="2px solid cyan"
         boxShadow="brandShadow"
         rounded="md"
       >
         <Table variant="striped" colorScheme="teal">
-          <TableCaption placement="top" fontSize="3xl"  fontWeight="700" color="brand">
+          <TableCaption
+            placement="top"
+            fontSize="3xl"
+            fontWeight="700"
+            color="brand"
+          >
             Turnusy rehabilitacyjne 2021
           </TableCaption>
           <Thead>
