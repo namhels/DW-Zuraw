@@ -16,7 +16,7 @@ export const App = () => {
   const { colorMode } = useColorMode();
 
   return (
-    <Box bg={colorMode === 'dark' ? 'bgDark' : 'bgLight'}>
+    <Box bg={colorMode === 'dark' ? 'bgDark.200' : 'bgLight.200'}>
       <Routes>
         <Route path="/" element={<SharedLayout />}>
           <Route index element={<HomePage />} />
