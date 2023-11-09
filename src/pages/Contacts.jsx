@@ -21,7 +21,7 @@ const Contact = () => {
     <Flex justifyContent="center">
       <BoxPage>
         <TitlePage>Kontakty</TitlePage>
-        <List spacing={4} py={5}>
+        <List width="767px" spacing={4} py={5}>
           <ListItem>
             <Link href="tel:+48604175046" textDecoration="none">
               <HStack spacing={14}>
@@ -45,16 +45,28 @@ const Contact = () => {
             </Link>
           </ListItem>
           <ListItem>
-              <HStack spacing={14}>
-                <HStack>
-                  <ListIcon as={MdLocationPin} color="brand" />
-                  <Title>Adres</Title>
-                </HStack>
-                <Text>34-700, Rabka - Zdrój, Ul. Krótka 8</Text>
+            <HStack spacing={14}>
+              <HStack>
+                <ListIcon as={MdLocationPin} color="brand" />
+                <Title>Adres</Title>
               </HStack>
-            <AspectRatio ratio={16 / 9}>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d671.6051703526367!2d19.96879294568675!3d49.59900348147784!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715e1d495b24c33%3A0xec61f7f27a75e7f5!2zRFcgxbt1cmF3!5e0!3m2!1sru!2spl!4v1699516813458!5m2!1sru!2spl"  title="34-700, Rabka - Zdrój, Ul. Krótka 8"/>
-            {/* width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" */}
+              <Text>34-700, Rabka - Zdrój, Ul. Krótka 8</Text>
+            </HStack>
+            <AspectRatio
+              mt={10}
+              ratio={16 / 9}
+              border="2px solid green"
+              rounded="md"
+            >
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d646.4833747798532!2d19.9687929!3d49.5990035!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715e1d495b24c33%3A0xec61f7f27a75e7f5!2zRFcgxbt1cmF3!5e0!3m2!1spl!2spl!4v1699539504591!5m2!1spl!2spl"
+                width="800"
+                height="600"
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="34-700, Rabka - Zdrój, Ul. Krótka 8"
+              />
             </AspectRatio>
           </ListItem>
         </List>

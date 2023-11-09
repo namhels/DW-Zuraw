@@ -7,9 +7,9 @@ const Home = () => {
       <Heading
         as="h1"
         size="xl"
-        fontFamily="cursive"
+        fontFamily="Agbalumo"
         color="brand"
-        letterSpacing={4}
+        letterSpacing={2}
         fontWeight="900"
       >
         Przyjdź jako goście, wyjdź jako przyjaciele!
