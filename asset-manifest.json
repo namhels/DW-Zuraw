@@ -1,31 +1,43 @@
 {
   "files": {
-    "main.css": "/DW-Zuraw/static/css/main.768a8a40.css",
-    "main.js": "/DW-Zuraw/static/js/main.3131c052.js",
+    "main.css": "/DW-Zuraw/static/css/main.b7bb2c40.css",
+    "main.js": "/DW-Zuraw/static/js/main.fd405182.js",
     "static/js/415.6d82b542.chunk.js": "/DW-Zuraw/static/js/415.6d82b542.chunk.js",
     "static/js/771.7425458b.chunk.js": "/DW-Zuraw/static/js/771.7425458b.chunk.js",
     "static/js/238.42023c6f.chunk.js": "/DW-Zuraw/static/js/238.42023c6f.chunk.js",
-    "static/js/960.683c7192.chunk.js": "/DW-Zuraw/static/js/960.683c7192.chunk.js",
+    "static/js/705.1bd0b5fc.chunk.js": "/DW-Zuraw/static/js/705.1bd0b5fc.chunk.js",
     "static/js/648.99327bca.chunk.js": "/DW-Zuraw/static/js/648.99327bca.chunk.js",
     "static/js/402.f723c3af.chunk.js": "/DW-Zuraw/static/js/402.f723c3af.chunk.js",
     "static/js/787.d369eb71.chunk.js": "/DW-Zuraw/static/js/787.d369eb71.chunk.js",
+    "static/js/832.4235e45a.chunk.js": "/DW-Zuraw/static/js/832.4235e45a.chunk.js",
     "static/media/bcg.png": "/DW-Zuraw/static/media/bcg.1237666b1d2406f7d2b7.png",
+    "static/media/photo3.webp": "/DW-Zuraw/static/media/photo3.ad0f5a702ee978da613c.webp",
+    "static/media/photo1.webp": "/DW-Zuraw/static/media/photo1.1304d1cd280f81568e67.webp",
+    "static/media/photo7.webp": "/DW-Zuraw/static/media/photo7.8dc3b6255af90d4668d2.webp",
+    "static/media/photo2.webp": "/DW-Zuraw/static/media/photo2.f9239ad1a9b342656e45.webp",
+    "static/media/photo6.webp": "/DW-Zuraw/static/media/photo6.187356a4abc47e9b1b08.webp",
+    "static/media/photo9.webp": "/DW-Zuraw/static/media/photo9.149e654ad55f49703799.webp",
+    "static/media/photo8.webp": "/DW-Zuraw/static/media/photo8.2aa7ebf322c7a3ba3ae7.webp",
+    "static/media/photo4.webp": "/DW-Zuraw/static/media/photo4.28b58c206c07591f4190.webp",
+    "static/media/photo5.webp": "/DW-Zuraw/static/media/photo5.f6f6015a3767326de89a.webp",
+    "static/media/photo10.webp": "/DW-Zuraw/static/media/photo10.a061402adeed005dafb6.webp",
     "static/media/doc1.webp": "/DW-Zuraw/static/media/doc1.fa9a1f5ed42525b4176e.webp",
     "static/media/doc2.webp": "/DW-Zuraw/static/media/doc2.2f5f4c4ef642fa2234f4.webp",
     "static/media/doc3.webp": "/DW-Zuraw/static/media/doc3.af1ba7ac933bea9d4f7d.webp",
     "index.html": "/DW-Zuraw/index.html",
-    "main.768a8a40.css.map": "/DW-Zuraw/static/css/main.768a8a40.css.map",
-    "main.3131c052.js.map": "/DW-Zuraw/static/js/main.3131c052.js.map",
+    "main.b7bb2c40.css.map": "/DW-Zuraw/static/css/main.b7bb2c40.css.map",
+    "main.fd405182.js.map": "/DW-Zuraw/static/js/main.fd405182.js.map",
     "415.6d82b542.chunk.js.map": "/DW-Zuraw/static/js/415.6d82b542.chunk.js.map",
     "771.7425458b.chunk.js.map": "/DW-Zuraw/static/js/771.7425458b.chunk.js.map",
     "238.42023c6f.chunk.js.map": "/DW-Zuraw/static/js/238.42023c6f.chunk.js.map",
-    "960.683c7192.chunk.js.map": "/DW-Zuraw/static/js/960.683c7192.chunk.js.map",
+    "705.1bd0b5fc.chunk.js.map": "/DW-Zuraw/static/js/705.1bd0b5fc.chunk.js.map",
     "648.99327bca.chunk.js.map": "/DW-Zuraw/static/js/648.99327bca.chunk.js.map",
     "402.f723c3af.chunk.js.map": "/DW-Zuraw/static/js/402.f723c3af.chunk.js.map",
-    "787.d369eb71.chunk.js.map": "/DW-Zuraw/static/js/787.d369eb71.chunk.js.map"
+    "787.d369eb71.chunk.js.map": "/DW-Zuraw/static/js/787.d369eb71.chunk.js.map",
+    "832.4235e45a.chunk.js.map": "/DW-Zuraw/static/js/832.4235e45a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.768a8a40.css",
-    "static/js/main.3131c052.js"
+    "static/css/main.b7bb2c40.css",
+    "static/js/main.fd405182.js"
   ]
 }
