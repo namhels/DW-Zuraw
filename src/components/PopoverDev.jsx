@@ -34,7 +34,7 @@ const PopoverDev = () => {
           fontWeight="700"
           borderColor="white"
           color="white"
-          _hover={{ transform: 'scale(1.05)' }}
+          _hover={{ transform: 'scale(1.05)', color: 'green', borderColor: 'brand' }}
         >
           Opracowany przez namhels
         </Box>
