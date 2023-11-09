@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/DW-Zuraw/static/css/main.d44ea517.css",
-    "main.js": "/DW-Zuraw/static/js/main.eb419138.js",
-    "static/js/415.3c570b5f.chunk.js": "/DW-Zuraw/static/js/415.3c570b5f.chunk.js",
+    "main.css": "/DW-Zuraw/static/css/main.768a8a40.css",
+    "main.js": "/DW-Zuraw/static/js/main.3131c052.js",
+    "static/js/415.6d82b542.chunk.js": "/DW-Zuraw/static/js/415.6d82b542.chunk.js",
     "static/js/771.7425458b.chunk.js": "/DW-Zuraw/static/js/771.7425458b.chunk.js",
     "static/js/238.42023c6f.chunk.js": "/DW-Zuraw/static/js/238.42023c6f.chunk.js",
     "static/js/960.683c7192.chunk.js": "/DW-Zuraw/static/js/960.683c7192.chunk.js",
     "static/js/648.99327bca.chunk.js": "/DW-Zuraw/static/js/648.99327bca.chunk.js",
-    "static/js/402.be038e67.chunk.js": "/DW-Zuraw/static/js/402.be038e67.chunk.js",
+    "static/js/402.f723c3af.chunk.js": "/DW-Zuraw/static/js/402.f723c3af.chunk.js",
     "static/js/787.d369eb71.chunk.js": "/DW-Zuraw/static/js/787.d369eb71.chunk.js",
     "static/media/bcg.png": "/DW-Zuraw/static/media/bcg.1237666b1d2406f7d2b7.png",
     "static/media/doc1.webp": "/DW-Zuraw/static/media/doc1.fa9a1f5ed42525b4176e.webp",
     "static/media/doc2.webp": "/DW-Zuraw/static/media/doc2.2f5f4c4ef642fa2234f4.webp",
     "static/media/doc3.webp": "/DW-Zuraw/static/media/doc3.af1ba7ac933bea9d4f7d.webp",
     "index.html": "/DW-Zuraw/index.html",
-    "main.d44ea517.css.map": "/DW-Zuraw/static/css/main.d44ea517.css.map",
-    "main.eb419138.js.map": "/DW-Zuraw/static/js/main.eb419138.js.map",
-    "415.3c570b5f.chunk.js.map": "/DW-Zuraw/static/js/415.3c570b5f.chunk.js.map",
+    "main.768a8a40.css.map": "/DW-Zuraw/static/css/main.768a8a40.css.map",
+    "main.3131c052.js.map": "/DW-Zuraw/static/js/main.3131c052.js.map",
+    "415.6d82b542.chunk.js.map": "/DW-Zuraw/static/js/415.6d82b542.chunk.js.map",
     "771.7425458b.chunk.js.map": "/DW-Zuraw/static/js/771.7425458b.chunk.js.map",
     "238.42023c6f.chunk.js.map": "/DW-Zuraw/static/js/238.42023c6f.chunk.js.map",
     "960.683c7192.chunk.js.map": "/DW-Zuraw/static/js/960.683c7192.chunk.js.map",
     "648.99327bca.chunk.js.map": "/DW-Zuraw/static/js/648.99327bca.chunk.js.map",
-    "402.be038e67.chunk.js.map": "/DW-Zuraw/static/js/402.be038e67.chunk.js.map",
+    "402.f723c3af.chunk.js.map": "/DW-Zuraw/static/js/402.f723c3af.chunk.js.map",
     "787.d369eb71.chunk.js.map": "/DW-Zuraw/static/js/787.d369eb71.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d44ea517.css",
-    "static/js/main.eb419138.js"
+    "static/css/main.768a8a40.css",
+    "static/js/main.3131c052.js"
   ]
 }
