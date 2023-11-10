@@ -6,14 +6,13 @@ const Home = () => {
     <Center mt="16vh">
       <Heading
         as="h1"
-        size="xl"
         fontFamily="Agbalumo"
         fontWeight="900"
-        fontSize="67px"
         color="brand"
         textShadow="4px 4px 3px rgba(7, 208, 234,0.6)"
         letterSpacing={2}
         textAlign="center"
+        fontSize={{ base: "34px", md: "55px", lg: "67px" }}
       >
         Przyjdź jako goście,<br/> wyjdź jako przyjaciele!
       </Heading>

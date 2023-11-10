@@ -9,10 +9,9 @@ const ToggleTheme = () => {
       colorScheme="green"
       aria-label="toggle theme"
       rounded="full"
-      ml={2}
-      size="md"
       onClick={toggleColorMode}
       icon={colorMode === 'dark' ? <FaSun /> : <FaMoon />}
+      boxSize={{ base: "24px", md: "32px", lg: "46px" }}
     />
   );
 };

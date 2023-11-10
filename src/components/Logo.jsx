@@ -43,7 +43,6 @@ const Logo = () => {
     <ChakraLink
       as={ReactRouterLink}
       to="/"
-      p="2"
       className="my-box"
       _hover={{ textDecoration: 'none' }}
     >
@@ -52,15 +51,15 @@ const Logo = () => {
         alignItems="center"
         textShadow="4px 4px 3px rgba(7, 208, 234,0.6)"
         color="green"
-        size="2xl"
-        textDecoration="none"
+        fontFamily="Agbalumo"
+        fontSize={{ base: "24px", md: "40px", lg: "56px" }}
       >
         Dom Wczasowy
         {
           <Icon
             as={GiPaperCrane}
             mx={3}
-            boxSize={28}
+            boxSize={{ base: "46px", md: "78px", lg: "106px" }}
             sx={{
               '.my-box:hover &': {
                 animation: animation
