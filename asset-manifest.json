@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/DW-Zuraw/static/css/main.b7bb2c40.css",
-    "main.js": "/DW-Zuraw/static/js/main.fd405182.js",
-    "static/js/415.6d82b542.chunk.js": "/DW-Zuraw/static/js/415.6d82b542.chunk.js",
+    "main.js": "/DW-Zuraw/static/js/main.c06127c1.js",
+    "static/js/415.05dfc673.chunk.js": "/DW-Zuraw/static/js/415.05dfc673.chunk.js",
     "static/js/771.7425458b.chunk.js": "/DW-Zuraw/static/js/771.7425458b.chunk.js",
     "static/js/238.42023c6f.chunk.js": "/DW-Zuraw/static/js/238.42023c6f.chunk.js",
     "static/js/705.1bd0b5fc.chunk.js": "/DW-Zuraw/static/js/705.1bd0b5fc.chunk.js",
     "static/js/648.99327bca.chunk.js": "/DW-Zuraw/static/js/648.99327bca.chunk.js",
-    "static/js/402.f723c3af.chunk.js": "/DW-Zuraw/static/js/402.f723c3af.chunk.js",
+    "static/js/402.db891888.chunk.js": "/DW-Zuraw/static/js/402.db891888.chunk.js",
     "static/js/787.d369eb71.chunk.js": "/DW-Zuraw/static/js/787.d369eb71.chunk.js",
     "static/js/832.4235e45a.chunk.js": "/DW-Zuraw/static/js/832.4235e45a.chunk.js",
     "static/media/bcg.png": "/DW-Zuraw/static/media/bcg.1237666b1d2406f7d2b7.png",
@@ -26,18 +26,18 @@
     "static/media/doc3.webp": "/DW-Zuraw/static/media/doc3.af1ba7ac933bea9d4f7d.webp",
     "index.html": "/DW-Zuraw/index.html",
     "main.b7bb2c40.css.map": "/DW-Zuraw/static/css/main.b7bb2c40.css.map",
-    "main.fd405182.js.map": "/DW-Zuraw/static/js/main.fd405182.js.map",
-    "415.6d82b542.chunk.js.map": "/DW-Zuraw/static/js/415.6d82b542.chunk.js.map",
+    "main.c06127c1.js.map": "/DW-Zuraw/static/js/main.c06127c1.js.map",
+    "415.05dfc673.chunk.js.map": "/DW-Zuraw/static/js/415.05dfc673.chunk.js.map",
     "771.7425458b.chunk.js.map": "/DW-Zuraw/static/js/771.7425458b.chunk.js.map",
     "238.42023c6f.chunk.js.map": "/DW-Zuraw/static/js/238.42023c6f.chunk.js.map",
     "705.1bd0b5fc.chunk.js.map": "/DW-Zuraw/static/js/705.1bd0b5fc.chunk.js.map",
     "648.99327bca.chunk.js.map": "/DW-Zuraw/static/js/648.99327bca.chunk.js.map",
-    "402.f723c3af.chunk.js.map": "/DW-Zuraw/static/js/402.f723c3af.chunk.js.map",
+    "402.db891888.chunk.js.map": "/DW-Zuraw/static/js/402.db891888.chunk.js.map",
     "787.d369eb71.chunk.js.map": "/DW-Zuraw/static/js/787.d369eb71.chunk.js.map",
     "832.4235e45a.chunk.js.map": "/DW-Zuraw/static/js/832.4235e45a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b7bb2c40.css",
-    "static/js/main.fd405182.js"
+    "static/js/main.c06127c1.js"
   ]
 }

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkDW_Zuraw=self.webpackChunkDW_Zuraw||[]).push([[415],{5415:function(e,t,r){r.r(t);var a=r(6484),n=r(9589),i=(r(2791),r(184));t.default=function(){return(0,i.jsx)(a.M,{mt:"16vh",children:(0,i.jsxs)(n.X,{as:"h1",size:"xl",fontFamily:"Agbalumo",fontWeight:"900",fontSize:"67px",color:"brand",textShadow:"4px 4px 3px rgba(7, 208, 234,0.6)",letterSpacing:2,textAlign:"center",children:["Przyjd\u017a jako go\u015bcie,",(0,i.jsx)("br",{})," wyjd\u017a jako przyjaciele!"]})})}}}]);
+//# sourceMappingURL=415.05dfc673.chunk.js.map
