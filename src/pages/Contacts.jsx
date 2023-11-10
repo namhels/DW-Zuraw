@@ -21,7 +21,7 @@ const Contact = () => {
     <Flex justifyContent="center">
       <BoxPage>
         <TitlePage>Kontakty</TitlePage>
-        <List width="767px" spacing={4} py={5}>
+        <List spacing={4} py={5}>
           <ListItem>
             <Link href="tel:+48604175046" textDecoration="none">
               <HStack spacing={14}>
@@ -34,7 +34,7 @@ const Contact = () => {
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="mailto:8.lsv.888@gmail.com">
+            <Link href="mailto:domwczasowyzuraw@op.pl">
               <HStack spacing={14}>
                 <HStack>
                   <ListIcon as={MdOutlineEmail} color="brand" />
@@ -53,6 +53,7 @@ const Contact = () => {
               <Text>34-700, Rabka - Zdrój, Ul. Krótka 8</Text>
             </HStack>
             <AspectRatio
+              width="767px"
               mt={10}
               ratio={16 / 9}
               border="2px solid green"

@@ -13,9 +13,9 @@ const SharedLayout = () => {
         <Suspense fallback={null}>
           <Flex
             backgroundImage={`url(${backgroundImage})`}
-            backgroundPosition="center"
+            backgroundPosition="bottom"
             backgroundRepeat="no-repeat"
-            backgroundSize="cover"
+            backgroundSize="contain"
             flexDirection="column"
             justifyContent="space-between"
             flexGrow="1"

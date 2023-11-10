@@ -8,11 +8,14 @@ const Home = () => {
         as="h1"
         size="xl"
         fontFamily="Agbalumo"
-        color="brand"
-        letterSpacing={2}
         fontWeight="900"
+        fontSize="67px"
+        color="brand"
+        textShadow="4px 4px 3px rgba(7, 208, 234,0.6)"
+        letterSpacing={2}
+        textAlign="center"
       >
-        Przyjdź jako goście, wyjdź jako przyjaciele!
+        Przyjdź jako goście,<br/> wyjdź jako przyjaciele!
       </Heading>
     </Center>
   );
