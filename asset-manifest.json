@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/DW-Zuraw/static/css/main.b7bb2c40.css",
-    "main.js": "/DW-Zuraw/static/js/main.c06127c1.js",
-    "static/js/415.05dfc673.chunk.js": "/DW-Zuraw/static/js/415.05dfc673.chunk.js",
+    "main.js": "/DW-Zuraw/static/js/main.70fa6b5d.js",
+    "static/js/630.8559516c.chunk.js": "/DW-Zuraw/static/js/630.8559516c.chunk.js",
     "static/js/771.7425458b.chunk.js": "/DW-Zuraw/static/js/771.7425458b.chunk.js",
     "static/js/238.42023c6f.chunk.js": "/DW-Zuraw/static/js/238.42023c6f.chunk.js",
     "static/js/705.1bd0b5fc.chunk.js": "/DW-Zuraw/static/js/705.1bd0b5fc.chunk.js",
@@ -26,8 +26,8 @@
     "static/media/doc3.webp": "/DW-Zuraw/static/media/doc3.af1ba7ac933bea9d4f7d.webp",
     "index.html": "/DW-Zuraw/index.html",
     "main.b7bb2c40.css.map": "/DW-Zuraw/static/css/main.b7bb2c40.css.map",
-    "main.c06127c1.js.map": "/DW-Zuraw/static/js/main.c06127c1.js.map",
-    "415.05dfc673.chunk.js.map": "/DW-Zuraw/static/js/415.05dfc673.chunk.js.map",
+    "main.70fa6b5d.js.map": "/DW-Zuraw/static/js/main.70fa6b5d.js.map",
+    "630.8559516c.chunk.js.map": "/DW-Zuraw/static/js/630.8559516c.chunk.js.map",
     "771.7425458b.chunk.js.map": "/DW-Zuraw/static/js/771.7425458b.chunk.js.map",
     "238.42023c6f.chunk.js.map": "/DW-Zuraw/static/js/238.42023c6f.chunk.js.map",
     "705.1bd0b5fc.chunk.js.map": "/DW-Zuraw/static/js/705.1bd0b5fc.chunk.js.map",
@@ -38,6 +38,6 @@
   },
   "entrypoints": [
     "static/css/main.b7bb2c40.css",
-    "static/js/main.c06127c1.js"
+    "static/js/main.70fa6b5d.js"
   ]
 }
