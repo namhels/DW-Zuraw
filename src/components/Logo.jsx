@@ -51,7 +51,7 @@ const Logo = () => {
         alignItems="center"
         textShadow="4px 4px 3px rgba(7, 208, 234,0.6)"
         color="green"
-        fontFamily="Agbalumo"
+        fontFamily="Rubik Moonrocks"
         fontSize={{ base: "24px", md: "40px", lg: "56px" }}
       >
         Dom Wczasowy
