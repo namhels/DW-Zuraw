@@ -23,8 +23,6 @@ const Home = () => {
         mt={5}
         fontFamily="Rubik Moonrocks"
         fontWeight="900"
-        // color="brand"
-        // textShadow="4px 4px 3px rgba(7, 208, 234,0.6)"
         letterSpacing={2}
         textAlign="center"
         fontSize={{ base: '34px', md: '55px', lg: '67px' }}

@@ -7,7 +7,7 @@ const Title = ({ children }) => {
       w="100%"
       display="flex"
       justifyContent="center"
-      fontSize="xl"
+      fontSize={{ base: "md", md: "lg", lg: "xl" }}
       color="green"
     >{ children }</Heading>
   );

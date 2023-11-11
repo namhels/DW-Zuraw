@@ -6,7 +6,7 @@ const TitlePage = ({ children }) => {
     <Heading
       display="flex"
       justifyContent="center"
-      fontSize="3xl"
+      fontSize={{ base: "lg", md: "2xl", lg: "3xl" }}
       color="brand"
     >
       {children}

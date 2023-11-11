@@ -11,7 +11,9 @@ const ToggleTheme = () => {
       rounded="full"
       onClick={toggleColorMode}
       icon={colorMode === 'dark' ? <FaSun /> : <FaMoon />}
-      boxSize={{ base: "24px", md: "32px", lg: "46px" }}
+      boxSize={{ base: "10px", sm: "32px", lg: "46px" }}
+      // size={{ base: "1px", sm: "16px", lg: "26px" }}
+      fontSize={{ base: "9px", sm: "16px", lg: "26px" }}
     />
   );
 };

@@ -3,9 +3,9 @@ import { Flex, Image, Text, VStack } from '@chakra-ui/react';
 import BoxPage from 'components/BoxPage';
 import TitlePage from 'components/TitlePage';
 
-import doc1 from 'images/docs/doc1.webp'
-import doc2 from 'images/docs/doc2.webp'
-import doc3 from 'images/docs/doc3.webp'
+import doc1 from 'images/docs/doc1.webp';
+import doc2 from 'images/docs/doc2.webp';
+import doc3 from 'images/docs/doc3.webp';
 
 const About = () => {
   return (
@@ -36,18 +36,27 @@ const About = () => {
           Ośrodek posiada wpis do rejestru „Organizatorów turnusów
           rehabilitacyjnych”
         </Text>
-        <Flex justifyContent="center" gap={4} mt={5}>
+        <Flex
+          flexDirection={{ base: 'column', lg: 'row' }}
+          justifyContent="center"
+          alignItems="center"
+          gap={4}
+          mt={5}
+        >
           <Image
             src={doc1}
             alt="Organizers of rehabilitation stays"
+            w={{ base: 'sm', lg: '2xs', xl: 'lg' }}
           />
           <Image
             src={doc2}
             alt="Organizers of rehabilitation stays"
+            w={{ base: 'sm', lg: '2xs', xl: 'lg' }}
           />
           <Image
             src={doc3}
             alt="Organizers of rehabilitation stays"
+            w={{ base: 'sm', lg: '2xs', xl: 'lg' }}
           />
         </Flex>
       </BoxPage>

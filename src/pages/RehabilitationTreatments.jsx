@@ -22,7 +22,7 @@ const RehabilitationTreatments = () => {
         <TitlePage>
           Zabiegi rehabilitacyne
         </TitlePage>
-        <Stack direction={['column', 'row']} spacing={6} alignItems="flex-start">
+        <Stack direction={{ base: "column", md: "row" }} spacing={6} alignItems="flex-start">
           <VStack py={5} spacing={4} alignItems="flex-start">
             <Title>
               Masaże

@@ -12,12 +12,12 @@ const AppBar = () => {
         alignItems="center"
         gap="2"
         minWidth={{
-          base: '320px',
-          sm: '480px',
-          md: '768px',
-          lg: '992px',
-          xl: '1280px',
-          '2xl': '1536px',
+          base: '300px',
+          sm: '460px',
+          md: '748px',
+          lg: '972px',
+          xl: '1260px',
+          '2xl': '1516px',
         }}
       >
         <Logo />

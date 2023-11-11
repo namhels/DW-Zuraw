@@ -18,19 +18,20 @@ const RehabilitationStays = () => {
   return (
     <Flex justifyContent="center">
       <TableContainer
-        maxW="container.lg"
+        w={{ base: "xs", sm: "xl", md: "2xl" }}
+        mx={{ base: "1px", sm: "20px" }}
         mt="50px"
-        px="16px"
+        px={{ sm: "16px"}}
         pb="32px"
         bg={colorMode === 'dark' ? 'bgDark.100' : 'bgLight.100'}
         border="2px solid cyan"
         boxShadow="brandShadow"
         rounded="md"
       >
-        <Table variant="striped" colorScheme="teal">
+        <Table variant="striped" colorScheme="teal" size={{ base: "sm", sm: "md", md: "lg" }}>
           <TableCaption
             placement="top"
-            fontSize="3xl"
+            fontSize={{ base: "lg", md: "2xl", lg: "3xl" }}
             fontWeight="700"
             color="brand"
           >

@@ -52,14 +52,14 @@ const Logo = () => {
         textShadow="4px 4px 3px rgba(7, 208, 234,0.6)"
         color="green"
         fontFamily="Rubik Moonrocks"
-        fontSize={{ base: "24px", md: "40px", lg: "56px" }}
+        fontSize={{ base: "12px", sm: "24px", md: "40px", lg: "56px" }}
       >
         Dom Wczasowy
         {
           <Icon
             as={GiPaperCrane}
             mx={3}
-            boxSize={{ base: "46px", md: "78px", lg: "106px" }}
+            boxSize={{ base: "46px", sm: "58px", md: "78px", lg: "106px" }}
             sx={{
               '.my-box:hover &': {
                 animation: animation
