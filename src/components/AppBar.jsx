@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Spacer } from '@chakra-ui/react';
+import { Flex } from '@chakra-ui/react';
 import Logo from 'components/Logo';
 import Navigation from 'components/Navigation';
 import ToggleTheme from 'components/ToggleTheme';
