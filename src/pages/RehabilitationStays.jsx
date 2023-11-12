@@ -35,7 +35,7 @@ const RehabilitationStays = () => {
             fontWeight="700"
             color="brand"
           >
-            Turnusy rehabilitacyjne 2021
+            Turnusy rehabilitacyjne 2023
           </TableCaption>
           <Thead>
             <Tr>

@@ -30,7 +30,6 @@ const PopoverDev = () => {
           ml="5px"
           px="8px"
           borderRadius="5px"
-          fontSize="14px"
           fontWeight="700"
           borderColor="white"
           color="white"

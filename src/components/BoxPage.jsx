@@ -6,7 +6,7 @@ const BoxPage = ({ children }) => {
 
   return (
     <Box
-      w={{ base: "md", md: "3xl", lg: "4xl", xl: "5xl", "2xl": "6xl" }}
+      w={{ base: "18rem", sm: "md", md: "3xl", lg: "4xl", xl: "5xl", "2xl": "6xl" }}
       mx="20px"
       mt="50px"
       px="16px"

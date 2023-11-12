@@ -5,6 +5,7 @@ const theme = extendTheme({
     global: (props) => ({
       'html, body': {
         color: props.colorMode === 'dark' ? 'bgLight.200' : 'bgDark.200',
+        fontSize: { base: 'sm', sm: 'md' },
       },
     }),
   },
